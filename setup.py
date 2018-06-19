@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="email_helper",
-    version="0.0.2",
+    version="0.0.3",
     author="Pengshiyu",
     author_email="pengshiyuyx@gmail.com",
     description="email helper for simple send email and receive email of python",
