@@ -140,7 +140,7 @@ class EmailReceiver(object):
 
 
 if __name__ == '__main__':
-    email = EmailReceiver("moudayemail@163.com", "mouday123")
+    email = EmailReceiver("xxx@163.com", "xxx")
     msg = email.get_last_email()
     print(msg)
 

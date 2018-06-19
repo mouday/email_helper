@@ -111,13 +111,13 @@ class EmailSender(object):
 
 
 if __name__ == '__main__':
-    email = EmailSender("moudayemail@163.com", "mouday123")
+    email = EmailSender("xxx@163.com", "xxx")
     email.set_header("你好")
     email.add_text("hello1")
     email.add_text("hello2")
     # email.add_attach("images/guilunmei.jpeg")
     # email.add_attach("images/guilunmei.jpeg")
-    email.add_receiver("mouday@qq.com")
-    email.add_receiver("psy068@qimingpian.com")
+    email.add_receiver("xxx@qq.com")
+    email.add_receiver("ooo@qq.com")
     email.send()
 
